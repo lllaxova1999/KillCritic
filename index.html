@@ -1,84 +1,34 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
+
 <head>
+
+    <!-- Кодировка страницы -->
     <meta charset="UTF-8">
+
+    <!-- Для правильного отображения на телефонах -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Название вкладки браузера -->
     <title>KillCritic</title>
 
-    <style>
-        /* Сброс стандартных настроек браузера */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Страница */
-        html, body {
-            width: 100%; /* Ширина страницы */
-            height: 100%; /* Высота страницы */
-            overflow: hidden; /* Запрещает появление полос прокрутки */
-            background: #000; /* Цвет фона - черный */
-            font-family: Arial, Helvetica, sans-serif; /* Шрифт */
-        }
-
-        /* Контейнер — это «коробка», внутри которой лежат: картинка; кнопка */
-        .container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-        }
-
-        /* Фоновое изображение */
-        .background {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Заполни весь экран, сохраняя пропорции */
-            display: block;
-        }
-
-        /* Кнопка */
-        .start-button {
-            position: absolute; /* Положение кнопки поверх картинки */
-            /* Положение кнопки. Передвинуть — просто менять проценты */
-            left: 8%; /* Отступ слева */
-            bottom: 12%; /* Отступ снизу */
-            background: #c62828; /* Цвет кнопки */
-            color: white; /* Цвет текста */
-            text-decoration: none; /* Подчеркивание - нет */
-            font-size: 30px; /* Размер текста */
-            font-weight: bold; /* Стиль текста */
-            padding: 18px 55px; /* Внутренние отсутпы - 18px сверху и снизу; 55px слева и справа */
-            border-radius: 12px; /* Скругление углов */
-            box-shadow: 0 8px 20px rgba(0,0,0,.35); /* Тень - 0 смещение вправо; 8px вниз; 20px размытие; 0.35 прозрачность */
-            transition: .25s; /* Анимация с изменением в 0.25 секунд */
-        }
-
-            /* Срабатывает, когда мышка наведена */
-            .start-button:hover {
-                background: #e53935; /* Цвет фона меняется */
-                transform: scale(1.05); /* Размер увеличивается */
-            }
-
-            /* Срабатывает при нажатии */
-            .start-button:active {
-                transform: scale(.98); /* Размер уменьшается */
-            }
-    </style>
+    <!-- Подключаем файл со всеми стилями сайта -->
+    <link rel="stylesheet" href="style/style.css">
 
 </head>
 
-<body>
+<!-- Класс страницы нужен, чтобы задать именно этот фон -->
+<body class="start-page">
 
+    <!-- Контейнер для содержимого страницы -->
     <div class="container">
 
-        <img src="img/start_screen.jpg"
-             alt="KillCritic"
-             class="background">
+        <!-- Кнопка перехода на страницу ввода пароля -->
+        <a href="password.html"
+           class="start-button">
 
-        <a href="password.html" class="start-button">
             НАЧАТЬ ИГРУ
+
         </a>
 
     </div>
@@ -86,4 +36,3 @@
 </body>
 
 </html>
-
