@@ -29,7 +29,7 @@ body {
 .password-page {
     /* Фоновая картинка */
 
-    background-image: url("img/password.jpg");
+    background-image: url("../img/password.jpg");
     /* Заполнить весь экран */
 
     background-size: cover;
