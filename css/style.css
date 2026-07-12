@@ -41,6 +41,11 @@ body {
     background-image: url("../img/password.jpg");
 }
 
+/* Страница ввода пароля */
+.desktop-page {
+    background-image: url("../img/desktop.png");
+}
+
 /* ==========================================
    ОКНО ВВОДА ПАРОЛЯ
 ========================================== */
