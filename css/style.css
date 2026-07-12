@@ -44,7 +44,7 @@ body {
 /* Рабочий стол */
 .desktop-page {
     /* Фоновое изображение рабочего стола */
-    background: url("../img/desktop.png");
+    background-image: url("../img/desktop.png");
     font-family: Arial, sans-serif;
     color: white;
 }
@@ -253,7 +253,7 @@ input[type="password"] {
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
