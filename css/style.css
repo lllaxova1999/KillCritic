@@ -260,15 +260,15 @@ input[type="password"] {
 
 /* »конки */
 .folder {
-    background: url("../img/icons/folder.png");
+    background-image: url("../img/icons/folder.png");
 }
 
 .mail {
-    background: url("../img/icons/mail.png");
+    background-image: url("../img/icons/mail.png");
 }
 
 .telegram {
-    background: url("../img/icons/telegram.png");
+    background-image: url("../img/icons/telegram.png");
 }
 
 /* ==========================================
