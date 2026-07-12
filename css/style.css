@@ -43,10 +43,6 @@ body {
 
 /* Рабочий стол */
 .desktop-page {
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
     /* Фоновое изображение рабочего стола */
     background: url("../img/desktop.png");
     font-family: Arial, sans-serif;
