@@ -273,7 +273,7 @@ input[type="password"] {
 
 /* ==========================================
    Панель задач
-========================================== */
+========================================== 
 
 .taskbar {
     position: fixed;
@@ -293,4 +293,4 @@ input[type="password"] {
 .taskbar-right {
     display: flex;
     align-items: center;
-}
+}*/
