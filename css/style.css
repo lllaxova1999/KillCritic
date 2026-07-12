@@ -41,9 +41,16 @@ body {
     background-image: url("../img/password.jpg");
 }
 
-/* Страница ввода пароля */
+/* Рабочий стол */
 .desktop-page {
-    background-image: url("../img/desktop.png");
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* Фоновое изображение рабочего стола */
+    background: url("../img/desktop.png");
+    font-family: Arial, sans-serif;
+    color: white;
 }
 
 /* ==========================================
@@ -201,4 +208,93 @@ input[type="password"] {
     padding: 15px;
     font-size: 20px;
     border: none;
+}
+
+/* ==========================================
+   РАБОЧИЙ СТОЛ
+========================================== */
+
+/* Контейнер рабочего стола */
+.desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+}
+
+/* ==========================================
+   Иконки
+========================================== */
+.desktop-icon {
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+    /* Подсветка */
+    .desktop-icon:hover {
+        background: rgba(255,255,255,0.15);
+        border-radius: 10px;
+    }
+
+    /* Подпись */
+    .desktop-icon span {
+        margin-top: 8px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+/* Общий стиль иконок */
+.icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Иконки */
+.folder {
+    background: url("../img/icons/folder.png");
+}
+
+.mail {
+    background: url("../img/icons/mail.png");
+}
+
+.telegram {
+    background: url("../img/icons/telegram.png");
+}
+
+/* ==========================================
+   Панель задач
+========================================== */
+
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    background: rgba(20,20,20,0.85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.taskbar-left,
+.taskbar-right {
+    display: flex;
+    align-items: center;
 }
