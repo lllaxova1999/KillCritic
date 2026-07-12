@@ -161,6 +161,9 @@ input[type="password"] {
     box-shadow: 0 8px 20px rgba(0,0,0,.35);
     /* Плавная анимация */
     transition: .25s;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
 }
     /* Когда мышка наведена */
     .button:hover {
